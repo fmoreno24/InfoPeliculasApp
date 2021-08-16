@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Top 20 Películas</string>
+    <string name="app_title">Top 20 Películas</string>
+    <string name="title_splash">Top 20 Películas</string>
+    <string name="movie_poster_description">Movie Poster</string>
+    <string name="list_is_empty">List is empty</string>
+    <string name="not_connection">You have no internet connection</string>
+</resources>

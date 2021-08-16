@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403695363480",
+    "project_id": "infopeliculas-bb123",
+    "storage_bucket": "infopeliculas-bb123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403695363480:android:7f73905e1483091cbe37ed",
+        "android_client_info": {
+          "package_name": "com.fmoreno.infopeliculasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403695363480-qdbia1h8hlnbgoeaggl0moie7fsdsd1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALTsqJJG7HE8RzeGWdKrP6egIJ1lWA_3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403695363480-qdbia1h8hlnbgoeaggl0moie7fsdsd1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

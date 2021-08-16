@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/logo_top_20"/>
+
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/pbprogreso"
+            style="@style/SpinKitView.Wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            app:SpinKit_Color="#fff" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/txtFooterInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:text="©2021 Fabian Moreno"
+                android:fontFamily="@font/ml"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
